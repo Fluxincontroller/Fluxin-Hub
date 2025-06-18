@@ -575,7 +575,7 @@ local autoFarm          = false
 local autoActivate      = false
 local originalFarmCF    = nil
 local originalCompCF    = nil
-
+local Repstorage 	= game:GetService("ReplicatedStorage")
 -- Compressor event
 local HoneyMachineRE = RepStorage:WaitForChild("GameEvents"):WaitForChild("HoneyMachineService_RE")
 
